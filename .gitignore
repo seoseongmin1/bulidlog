@@ -14,3 +14,9 @@ __pycache__/
 
 # 로그 파일
 *.log
+
+# 테스트 캐시
+.pytest_cache/
+
+# 원본 CSV에서 다시 만들 수 있는 SQLite 데이터베이스 파일
+database/*.db
